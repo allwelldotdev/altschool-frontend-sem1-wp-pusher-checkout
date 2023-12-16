@@ -6,5 +6,118 @@
     <link rel="stylesheet" href="style.css" />
     <title>WP Pusher Checkout</title>
   </head>
-  <body></body>
+  <body>
+    <main class="container">
+      <nav class="nav-bar">
+        <img src="img/logo.png" alt="WP Pusher Checkout Page" class="logo" />
+        <ul class="menu">
+          <li class="menu-item menu-item-1">Download</li>
+          <li class="menu-item menu-item-2">Learn more</li>
+          <li class="menu-item menu-item-3">Pricing</li>
+          <li class="menu-item menu-item-4">Help</li>
+          <li class="menu-item menu-item-5">Account</li>
+        </ul>
+      </nav>
+      <section class="row">
+        <div class="col col-1">
+          <div class="col-1-row-1">
+            <p>Checkout</p>
+          </div>
+          <form action="">
+            <div class="col-1-row-2">
+              <div class="title">
+                <div class="number">1</div>
+                <div class="text">Your basic information</div>
+              </div>
+              <div class="grid-container">
+                <div class="grid-item grid-item-1">
+                  <label for="first-name">First Name</label>
+                  <input type="text" placeholder="Jane" required />
+                </div>
+                <div class="grid-item grid-item-2">
+                  <label for="last-name">Last Name</label>
+                  <input type="text" placeholder="Doe" required />
+                </div>
+                <div class="grid-item grid-item-3">
+                  <label for="email">E-mail</label>
+                  <input
+                    type="text"
+                    placeholder="janedoe@example.com"
+                    require
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col-1-row-3">
+              <div class="title">
+                <div class="number">2</div>
+                <div class="text">Your payment information</div>
+              </div>
+              <div class="credit-card">
+                <label for="credit-card">Credit Card</label>
+                <input type="number" placeholder="Card Number" required />
+                <input type="number" placeholder="MM/YY" required />
+                <input type="number" placeholder="CVC" required />
+              </div>
+            </div>
+            <div class="col-1-row-4">
+              <button>Buy WP Pusher</button>
+              <div class="col-footer">
+                <div class="icon">?</div>
+                <div class="text">
+                  <strong>Need any help?</strong> Don't hesitate to contact
+                  support!
+                </div>
+              </div>
+              <img
+                src="img/stripe.svg"
+                alt="Powered by Stripe logo"
+                class="col-footer-img"
+              />
+            </div>
+          </form>
+        </div>
+        <div class="col col 2">
+          <div class="col-2-row-1">
+            <p>Freelancer</p>
+            <p>$<span>99</span>/year</p>
+            <em>Automatically renews after 1 year</em>
+          </div>
+          <div class="col-2-row-2">
+            <div>
+              <img src="img/tick.svg" alt="circular tick bullet point" />
+              <p>Use on <strong>5</strong> client sites</p>
+            </div>
+            <div>
+              <div>
+                <img src="img/tick.svg" alt="circular tick bullet point" />
+                <p>Private repositories</p>
+              </div>
+            </div>
+            <div>
+              <div>
+                <img src="img/tick.svg" alt="circular tick bullet point" />
+                <p>Email support</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-2-row-3">
+            <p>Need <strong>20</strong> client sites?</p>
+            <p class="attention-text">Switch to the <em>Agency</em> plan.</p>
+          </div>
+          <div class="col-2-row-4">
+            <p>
+              FTP is horrible to deal with. <strong>WP Pusher</strong> solves
+              that issue, and the customer support is awesome!
+            </p>
+            <div class="author">
+              <img src="img/kirk.png" alt="A photo of Kirk Beard" />
+              <p>Kirk Beard</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <p>&copy; 2018 WP Pusher IVS • <a href="#">Terms of Service</a></p>
+    </main>
+  </body>
 </html>

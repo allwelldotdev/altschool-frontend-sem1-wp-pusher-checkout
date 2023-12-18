@@ -55,10 +55,13 @@
               </div>
               <div class="credit-card">
                 <label for="credit-card">Credit Card</label>
-                <input type="number" placeholder="Card Number" required />
-                <input type="number" placeholder="MM" required />
-                <input type="number" placeholder="YY" required />
-                <input type="number" placeholder="CVC" required />
+                <div class="credit-card-grid">
+                  <input type="number" placeholder="Card Number" required />
+                  <input type="number" placeholder="MM" required />
+                  <div class="slash">/</div>
+                  <input type="number" placeholder="YY" required />
+                  <input type="number" placeholder="CVC" required />
+                </div>
               </div>
             </div>
             <div class="col-1-row-4">
@@ -78,7 +81,7 @@
             </div>
           </form>
         </div>
-        <div class="col col 2">
+        <div class="col col-2">
           <div class="col-2-row-1">
             <p>Freelancer</p>
             <p>$<span>99</span>/year</p>

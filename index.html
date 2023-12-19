@@ -11,11 +11,11 @@
       <nav class="nav-bar">
         <img src="img/logo.png" alt="WP Pusher Checkout Page" class="logo" />
         <ul class="menu">
-          <li class="menu-item menu-item-1">Download</li>
-          <li class="menu-item menu-item-2">Learn more</li>
-          <li class="menu-item menu-item-3">Pricing</li>
-          <li class="menu-item menu-item-4">Help</li>
-          <li class="menu-item menu-item-5">Account</li>
+          <li class="menu-item menu-item-1"><a href="#">Download</a></li>
+          <li class="menu-item menu-item-2"><a href="#">Learn more</a></li>
+          <li class="menu-item menu-item-3"><a href="#">Pricing</a></li>
+          <li class="menu-item menu-item-4"><a href="#">Help</a></li>
+          <li class="menu-item menu-item-5"><a href="#">Account</a></li>
         </ul>
       </nav>
       <section class="row">
@@ -84,7 +84,10 @@
         <div class="col col-2">
           <div class="col-2-row-1">
             <p>Freelancer</p>
-            <p>$<span>99</span>/year</p>
+            <p class="price">
+              <span class="currency">$</span><span class="amount">99</span>/
+              year
+            </p>
             <em>Automatically renews after 1 year</em>
           </div>
           <div class="col-2-row-2">
@@ -107,7 +110,10 @@
           </div>
           <div class="col-2-row-3">
             <p>Need <strong>20</strong> client sites?</p>
-            <p class="attention-text">Switch to the <em>Agency</em> plan.</p>
+            <p class="attention-text">
+              <a href="#">Switch to the <em>Agency</em> plan.</a>
+            </p>
+            <div class="text-underline"></div>
           </div>
           <div class="col-2-row-4">
             <p>
@@ -121,7 +127,10 @@
           </div>
         </div>
       </section>
-      <p>&copy; 2018 WP Pusher IVS • <a href="#">Terms of Service</a></p>
+      <p class="footer">
+        &copy; 2018 WP Pusher IVS <span>·</span>
+        <a href="#">Terms of Service</a>
+      </p>
     </main>
   </body>
 </html>

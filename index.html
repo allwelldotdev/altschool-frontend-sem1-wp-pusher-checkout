@@ -32,16 +32,27 @@
               <div class="grid-container">
                 <div class="grid-item grid-item-1">
                   <label for="first-name">First Name</label>
-                  <input type="text" placeholder="Jane" required />
+                  <input
+                    type="text"
+                    id="first-name"
+                    placeholder="Jane"
+                    required
+                  />
                 </div>
                 <div class="grid-item grid-item-2">
                   <label for="last-name">Last Name</label>
-                  <input type="text" placeholder="Doe" required />
+                  <input
+                    type="text"
+                    id="last-name"
+                    placeholder="Doe"
+                    required
+                  />
                 </div>
                 <div class="grid-item grid-item-3">
                   <label for="email">E-mail</label>
                   <input
                     type="text"
+                    id="email"
                     placeholder="janedoe@example.com"
                     required
                   />
@@ -56,11 +67,20 @@
               <div class="credit-card">
                 <label for="credit-card">Credit Card</label>
                 <div class="credit-card-grid">
-                  <input type="number" placeholder="Card Number" required />
-                  <input type="number" placeholder="MM" required />
+                  <label for="card-number" class="no-show"></label>
+                  <input
+                    type="number"
+                    id="card-number"
+                    placeholder="Card Number"
+                    required
+                  />
+                  <label for="mm" class="no-show"></label>
+                  <input type="number" id="mm" placeholder="MM" required />
                   <div class="slash">/</div>
-                  <input type="number" placeholder="YY" required />
-                  <input type="number" placeholder="CVC" required />
+                  <label for="yy" class="no-show"></label>
+                  <input type="number" id="yy" placeholder="YY" required />
+                  <label for="cvc" class="no-show"></label>
+                  <input type="number" id="cvc" placeholder="CVC" required />
                 </div>
               </div>
             </div>

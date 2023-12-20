@@ -407,3 +407,7 @@ button:hover {
   margin-inline: 5px;
 }
 
+.no-show {
+  display: none;
+}
+

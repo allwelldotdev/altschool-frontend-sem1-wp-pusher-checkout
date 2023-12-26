@@ -1,4 +1,4 @@
-# Pixel Perfect FIgma Design-To-Code Project Assignment by AltSchool Africa | School of Engineering | 1st Semester
+# Pixel Perfect Figma Design-To-Code Project Assignment by AltSchool Africa | School of Engineering | 1st Semester
 
 This project is managed by [Allwell](https://github.com/allwelldotdev/) 
 
